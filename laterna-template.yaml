@@ -1,3 +1,4 @@
+# These substitutions allow the end user to override certain values
 substitutions:
   name: "laterna-template"
 
@@ -6,17 +7,15 @@ esphome:
   # Automatically add the mac address to the name
   # so you can use a single firmware for all devices
   name_add_mac_suffix: true
-  
+
   # This will allow for (future) project identification,
   # configuration and updates.
   project:
-    name: esphome.laterna-template
+    name: esphome.laterna
     version: "1.0"
 
 esp32:
   board: esp32dev
-  framework:
-    type: arduino
 
 # To be able to get logs from the device via serial and api.
 logger:
@@ -27,6 +26,7 @@ api:
 # OTA is required for Over-the-Air updating
 ota:
 
+# This should point to the public location of this yaml file.
 dashboard_import:
   package_import_url: github://Planet-Laterna/Laterna-ESPHome-template/laterna-template.yaml@v1
 
@@ -35,7 +35,17 @@ wifi:
   ap:
     password: "12345678"
 
+# In combination with the `ap` this allows the user
+# to provision wifi credentials to the device.
 captive_portal:
+
+# Sets up Bluetooth LE (Only on ESP32) to allow the user
+# to provision wifi credentials to the device.
+esp32_improv:
+  authorizer: none
+
+# Sets up the improv via serial client for Wi-Fi provisioning
+improv_serial:
 
 light:
   - platform: fastled_clockless
