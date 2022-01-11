@@ -1,6 +1,7 @@
 # About
 
-Add some information about your project here.
+The Laterna series of RGB controller boards which are compatible with ESPHome.<br>
+Information about the Controllers can be found in our [Github](https://github.com/Planet-Laterna)
 
 # Installation
 
