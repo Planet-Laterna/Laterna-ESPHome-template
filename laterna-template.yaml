@@ -10,8 +10,8 @@ esphome:
   # This will allow for (future) project identification,
   # configuration and updates.
   project:
-  name: esphome.laterna-template
-  version: "1.0"
+    name: esphome.laterna-template
+    version: "1.0"
 
 esp32:
   board: esp32dev
