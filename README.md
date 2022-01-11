@@ -1,4 +1,6 @@
-# ESPHome Project Template
+# ESPHome Laterna Project Template
+
+Her you find the ESPHome templates for Laterna and Laterna Stick RGB Controller.
 
 This repo serves as a template for creating a new ESPHome project.
 
