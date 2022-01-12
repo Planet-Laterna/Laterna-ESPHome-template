@@ -1,8 +1,9 @@
 # About
 
 The Laterna series of RGB controller boards which are compatible with ESPHome.<br>
-After Flashing the controller will show up as a access point laterna-template-xxxx
-The Wifi password is 12345678. After connecting you will be redirected to update your own Wifi credentials.
+After Flashing the controller will show up as a access point laterna-template-xxxx<br>
+The Wifi password is 12345678.<br>
+After connecting you will be redirected to update your own Wifi credentials.<br>
 Information about the Controllers can be found in our [Github](https://github.com/Planet-Laterna)
 
 # Installation
