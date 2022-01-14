@@ -39,11 +39,6 @@ wifi:
 # to provision wifi credentials to the device.
 captive_portal:
 
-# Sets up Bluetooth LE (Only on ESP32) to allow the user
-# to provision wifi credentials to the device.
-esp32_improv:
-  authorizer: none
-
 # Sets up the improv via serial client for Wi-Fi provisioning
 improv_serial:
 
@@ -53,4 +48,4 @@ light:
     pin: GPIO21
     num_leds: 60
     rgb_order: BRG
-    name: "Laterna WS2812B Light"
+    name: "Laterna mini WS2812B Light"
