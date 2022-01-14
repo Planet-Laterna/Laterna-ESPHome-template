@@ -45,7 +45,7 @@ improv_serial:
 light:
   - platform: fastled_clockless
     chipset: WS2812B
-    pin: GPIO21
+    pin: GPIO12
     num_leds: 60
     rgb_order: BRG
     name: "Laterna mini WS2812B Light"
