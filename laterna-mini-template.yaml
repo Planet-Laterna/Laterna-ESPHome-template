@@ -15,7 +15,7 @@ esphome:
     version: "1.0"
 
   platform: ESP8266
-  board: esp8285
+  board: esp01_1m
 
 # To be able to get logs from the device via serial and api.
 logger:
