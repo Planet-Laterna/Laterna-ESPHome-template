@@ -24,6 +24,15 @@
           "offset": 57344
         }
       ]
+    },
+    {
+      "chipFamily": "ESP8266",
+      "parts": [
+        {
+          "path": "laterna-template-esp8266/firmware.bin",
+          "offset": 0
+        }
+      ]
     }
   ]
 }
